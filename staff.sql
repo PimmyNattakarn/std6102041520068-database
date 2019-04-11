@@ -11,5 +11,6 @@ CREATE TABLE `staff` (
   `salary` float(7,2) DEFAULT NULL,
   `branch_id` int(11) DEFAULT NULL,
   `user_id` int(11) DEFAULT NULL,
+  `property_for_rent_id` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
